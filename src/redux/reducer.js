@@ -3,7 +3,7 @@ import {INPUTCHANGE,FACEBOX,ONSUBMIT,SIGNOUT,HOME,ON_ROUTE} from "./constant";
 const initialState = {
     input: "",
     imageUrl: "",
-    box: {},
+    box: [],
     route: "signin",
     isSignedIn: false
 };
